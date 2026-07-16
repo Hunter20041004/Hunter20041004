@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 FEATURED = (
     "hospital-digital-twin",
+    "nccu-course-scheduler",
     "lol-video-generator",
     "vibe-coding-companion",
     "survey-lottery-automation",

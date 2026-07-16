@@ -16,6 +16,7 @@
 | Project | What it demonstrates |
 | --- | --- |
 | [Hospital Digital Twin](https://github.com/Hunter20041004/hospital-digital-twin) | 醫院營運情境的數位分身與決策支援原型 |
+| [NCCU Course Scheduler](https://github.com/Hunter20041004/nccu-course-scheduler) | 整合政大課程資格、實習空檔、AI 推薦與手機桌布匯出的選課決策工具 |
 | [LoL Video Generator](https://github.com/Hunter20041004/lol-video-generator) | 將素材整理、畫面合成與輸出串成可重現的影片工作流 |
 | [Vibe Coding Companion](https://github.com/Hunter20041004/vibe-coding-companion) | 協助非工程背景使用者規劃、理解與管理 AI 輔助開發流程 |
 | [Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation) | 為大量問卷回覆建立可重現、可稽核的抽獎自動化流程 |
