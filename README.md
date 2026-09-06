@@ -18,7 +18,6 @@
 | **[Hospital Digital Twin](https://github.com/Hunter20041004/hospital-digital-twin)** | 把醫院的營運與財務邏輯建成數位分身，撥動參數即看見全院盈虧漣漪；數字由確定性引擎計算、LLM 只負責白話解讀 | [🔗](https://hospital-digital-twin.onrender.com) |
 | **[NCCU Course Scheduler](https://github.com/Hunter20041004/nccu-course-scheduler)** | 整合政大節次、課程資格、實習空檔、AI 推薦與手機桌布匯出的選課決策工具 | [🔗](https://hunter20041004.github.io/nccu-course-scheduler/) |
 | **[LoL Video Generator](https://github.com/Hunter20041004/lol-video-generator)** | 把素材擷取、畫面合成到自動發布串成一條可重現的影音工作流（Next.js + Remotion）| — |
-| **[Vibe Coding Companion](https://github.com/Hunter20041004/vibe-coding-companion)** | 為非工程背景使用者設計的桌面 AI 開發夥伴，把一句話需求變成可執行的 agent 指令 | — |
 | **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | 為大量問卷回覆建立可重現、可稽核的抽獎自動化流程 | — |
 | **[Smart Album Cleaner](https://github.com/Hunter20041004/smart-album-cleaner)** | 以 AI 輔助辨識與整理相簿、篩除廢片的產品原型 | — |
 | **[Taipei Cafe Recommender (Excel)](https://github.com/Hunter20041004/taipei-cafe-recommender-excel)** | 純 Excel 函數與巨集打造的條件式推薦工具，示範非工程工具也能承載決策邏輯 | — |
