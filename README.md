@@ -15,7 +15,6 @@
 
 | Project | 一句話介紹 | Live Demo |
 | --- | --- | :---: |
-| **[Hospital Digital Twin](https://github.com/Hunter20041004/hospital-digital-twin)** | 把醫院的營運與財務邏輯建成數位分身，撥動參數即看見全院盈虧漣漪；數字由確定性引擎計算、LLM 只負責白話解讀 | [🔗](https://hospital-digital-twin.onrender.com) |
 | **[NCCU Course Scheduler](https://github.com/Hunter20041004/nccu-course-scheduler)** | 整合政大節次、課程資格、實習空檔、AI 推薦與手機桌布匯出的選課決策工具 | [🔗](https://hunter20041004.github.io/nccu-course-scheduler/) |
 | **[LoL Video Generator](https://github.com/Hunter20041004/lol-video-generator)** | 把素材擷取、畫面合成到自動發布串成一條可重現的影音工作流（Next.js + Remotion）| — |
 | **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | 為大量問卷回覆建立可重現、可稽核的抽獎自動化流程 | — |

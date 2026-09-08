@@ -5,10 +5,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 
 FEATURED = (
-    "hospital-digital-twin",
     "nccu-course-scheduler",
     "lol-video-generator",
-    "vibe-coding-companion",
     "survey-lottery-automation",
     "smart-album-cleaner",
     "taipei-cafe-recommender-excel",
@@ -24,7 +22,7 @@ class ProfileContractTests(unittest.TestCase):
     def test_profile_has_exact_identity_and_featured_project_order(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         self.assertIn("Hunter Tseng（曾尉庭）", readme)
-        self.assertIn("政大會計系｜AI Product / Technical Intern", readme)
+        self.assertIn("政大會計系 ｜ AI Product / Technical Intern", readme)
         self.assertIn("AI Product Prototyping", readme)
 
         positions = []
@@ -42,6 +40,8 @@ class ProfileContractTests(unittest.TestCase):
         )
         self.assertEqual(1, readme.count(coursework))
         self.assertNotIn("second-brain", readme)
+        self.assertNotIn("hospital-digital-twin", readme)
+        self.assertNotIn("onrender.com", readme)
         self.assertNotIn("mailto:", readme)
         self.assertNotIn("linkedin.com", readme.casefold())
         self.assertNotIn("Location:", readme)
