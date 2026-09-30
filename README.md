@@ -15,7 +15,6 @@
 
 | Project | 一句話介紹 | Live Demo |
 | --- | --- | :---: |
-| **[NCCU Course Scheduler](https://github.com/Hunter20041004/nccu-course-scheduler)** | 整合政大節次、課程資格、實習空檔、AI 推薦與手機桌布匯出的選課決策工具 | [🔗](https://hunter20041004.github.io/nccu-course-scheduler/) |
 | **[LoL Video Generator](https://github.com/Hunter20041004/lol-video-generator)** | 把素材擷取、畫面合成到自動發布串成一條可重現的影音工作流（Next.js + Remotion）| — |
 | **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | 為大量問卷回覆建立可重現、可稽核的抽獎自動化流程 | — |
 | **[Smart Album Cleaner](https://github.com/Hunter20041004/smart-album-cleaner)** | 以 AI 輔助辨識與整理相簿、篩除廢片的產品原型 | — |
