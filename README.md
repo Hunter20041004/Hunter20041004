@@ -1,25 +1,31 @@
 # Hunter Tseng（曾尉庭）
 
-**政大會計系 ｜ AI Product / Technical Intern**
+**政大會計系 ｜ Building Campusward**
 
-我把工作與學習中遇到的真實問題，轉化成可測試、可展示、可持續改進的 AI 產品與自動化工具——涵蓋決策支援、內容工作流、資料處理與全端原型。
+I'm an accounting student at National Chengchi University (Taipei) who builds AI products end to end: from talking to users and defining the problem, to shipping tested software.
 
-## What I build
+我把身邊真實的問題做成能用、能測試的 AI 產品。現在全力在做 **Campusward**。
 
-- **AI Product Prototyping** — 從問題定義、流程設計到可操作的原型
-- **Decision Support** — 把資料與模型輸出整理成人能理解、能拍板的決策資訊
-- **Workflow Automation** — 消除重複的人工步驟，同時保留可追溯、可驗證的流程
-- **Full-stack Delivery** — 串接前端、後端、資料與部署，交付能實際展示的產品
+## Now building: Campusward
 
-## Featured Projects
+**[campusward-nccu](https://github.com/Hunter20041004/campusward-nccu)** — an AI course planner for NCCU students. Tell it what you need in plain words; it searches the catalog, builds a timetable, checks time conflicts and enrollment rules, and every action can be undone.
 
-| Project | 一句話介紹 | Live Demo |
-| --- | --- | :---: |
-| **[LoL Video Generator](https://github.com/Hunter20041004/lol-video-generator)** | 把素材擷取、畫面合成到自動發布串成一條可重現的影音工作流（Next.js + Remotion）| — |
-| **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | 為大量問卷回覆建立可重現、可稽核的抽獎自動化流程 | — |
-| **[Smart Album Cleaner](https://github.com/Hunter20041004/smart-album-cleaner)** | 以 AI 輔助辨識與整理相簿、篩除廢片的產品原型 | — |
-| **[Taipei Cafe Recommender (Excel)](https://github.com/Hunter20041004/taipei-cafe-recommender-excel)** | 純 Excel 函數與巨集打造的條件式推薦工具，示範非工程工具也能承載決策邏輯 | — |
+- Free and open source; not an official NCCU service
+- TypeScript scheduling engine + React web app, static deploy on Cloudflare Pages
+- An earlier Python / Streamlit prototype indexed all **2,829** NCCU courses for search, Q&A and conflict checks
+- Goal: public launch before NCCU's spring 2027 course selection (Jan 2027)
 
-## Coursework
+給政大學生的 AI 選課排課工具：說出需求，它幫你搜課、排課、檢查衝堂和選課規則，每一步都能復原。
 
-- **[Design Thinking & AI Portfolio](https://github.com/Hunter20041004/design-thinking-ai-portfolio)** — 神經網路、遷移學習、LLM orchestration 與 reflection agent 的課程實作紀錄
+## Selected projects
+
+| Project | What it does | Proof |
+| --- | --- | --- |
+| **[Hextech Video Studio](https://github.com/Hunter20041004/lol-video-generator)** | Turns League of Legends patch and esports data into bilingual short videos: data scan → script → Remotion render → publish queue | 250+ commits, CI, publishes to Instagram [@hextech.vs.cn](https://www.instagram.com/hextech.vs.cn/) |
+| **[Smart Album Cleaner](https://github.com/Hunter20041004/smart-album-cleaner)** | Local photo review app: MobileNetV3 scores facial expressions, with a recoverable Trash workflow | FastAPI + Vue 3, CI |
+| **[FactoryMind](https://github.com/Hunter20041004/factorymind-webapp)** | Interactive demo of an auditable AI ops agent for factory breakdowns and rush orders (AI Manufacturing 2026 competition) | [Live demo](https://hunter20041004.github.io/factorymind-webapp/) |
+| **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | Reproducible, auditable lottery pipeline built for 1,000+ real survey responses (published with synthetic data) | CI, Colab notebook |
+
+Also: [Taipei Cafe Recommender](https://github.com/Hunter20041004/taipei-cafe-recommender-excel) (Excel / VBA) · [Design Thinking & AI coursework](https://github.com/Hunter20041004/design-thinking-ai-portfolio)
+
+Tools built for internships and student organizations (e.g. a local-only Excel cleaner for a CPA firm's client data) are kept private for confidentiality.

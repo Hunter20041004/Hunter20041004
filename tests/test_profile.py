@@ -5,10 +5,11 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 
 FEATURED = (
-    "nccu-course-scheduler",
+    "campusward-nccu",
     "lol-video-generator",
-    "survey-lottery-automation",
     "smart-album-cleaner",
+    "factorymind-webapp",
+    "survey-lottery-automation",
     "taipei-cafe-recommender-excel",
 )
 
@@ -22,8 +23,7 @@ class ProfileContractTests(unittest.TestCase):
     def test_profile_has_exact_identity_and_featured_project_order(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         self.assertIn("Hunter Tseng（曾尉庭）", readme)
-        self.assertIn("政大會計系 ｜ AI Product / Technical Intern", readme)
-        self.assertIn("AI Product Prototyping", readme)
+        self.assertIn("政大會計系 ｜ Building Campusward", readme)
 
         positions = []
         for repository in FEATURED:
