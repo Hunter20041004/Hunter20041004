@@ -11,7 +11,6 @@ FEATURED = (
     "smart-album-cleaner",
     "factorymind-webapp",
     "survey-lottery-automation",
-    "taipei-cafe-recommender-excel",
 )
 
 
@@ -33,13 +32,10 @@ class ProfileContractTests(unittest.TestCase):
             positions.append(readme.index(url))
         self.assertEqual(sorted(positions), positions)
 
-    def test_profile_links_coursework_without_inventing_contact_details(self):
+    def test_profile_skips_retired_repos_and_invented_contact_details(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        coursework = (
-            "https://github.com/Hunter20041004/"
-            "design-thinking-ai-portfolio"
-        )
-        self.assertEqual(1, readme.count(coursework))
+        self.assertNotIn("design-thinking-ai-portfolio", readme)
+        self.assertNotIn("taipei-cafe-recommender-excel", readme)
         self.assertNotIn("second-brain", readme)
         self.assertNotIn("hospital-digital-twin", readme)
         self.assertNotIn("onrender.com", readme)

@@ -27,6 +27,5 @@ I'm an accounting student at National Chengchi University (Taipei) who builds AI
 | **[FactoryMind](https://github.com/Hunter20041004/factorymind-webapp)** | Interactive demo of an auditable AI ops agent for factory breakdowns and rush orders (AI Manufacturing 2026 competition) | [Live demo](https://hunter20041004.github.io/factorymind-webapp/) |
 | **[Survey Lottery Automation](https://github.com/Hunter20041004/survey-lottery-automation)** | Reproducible, auditable lottery pipeline built for 1,000+ real survey responses (published with synthetic data) | CI, Colab notebook |
 
-Also: [Taipei Cafe Recommender](https://github.com/Hunter20041004/taipei-cafe-recommender-excel) (Excel / VBA) · [Design Thinking & AI coursework](https://github.com/Hunter20041004/design-thinking-ai-portfolio)
 
 Tools built for internships and student organizations (e.g. a local-only Excel cleaner for a CPA firm's client data) are kept private for confidentiality.
