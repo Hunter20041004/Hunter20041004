@@ -21,7 +21,7 @@ I'm an accounting student at National Chengchi University (Taipei) who builds AI
 
 | Project | Type | What it is | Proof |
 | --- | --- | --- | --- |
-| **[Hextech Video Studio](https://github.com/Hunter20041004/lol-video-generator)** | Personal | Turns League of Legends patch notes and esports match data into bilingual short videos, and posts them to Instagram automatically | Live account [@hextech.vs.cn](https://www.instagram.com/hextech.vs.cn/) · 699 tests, CI |
+| **[Hextech Video Studio](https://github.com/Hunter20041004/lol-video-generator)** | Personal | Turns League of Legends patch notes and esports match data into bilingual short videos, and posts them to Instagram and Threads automatically | 90 auto-posted videos, 26K views on [@hextech.vs.cn](https://www.instagram.com/hextech.vs.cn/) · 700 tests, CI |
 | **[Content Topic Brain](https://github.com/Hunter20041004/daibu-content-brain)** | Personal | Weekly social-content workstation: finds sources, AI proposes topics, a human picks, then source-checked copy and carousel cards | Used for a weekly series · 742 tests |
 | **[Kaidan Rescue](https://github.com/Hunter20041004/kaidan-rescue)** | Personal | Browser horror game built on Taiwanese folklore: lead villagers to the truck before dawn | [Play it](https://hunter20041004.github.io/kaidan-rescue/) · 61 rule tests |
 | **[Hotai AI Hackathon 2026](https://github.com/Hunter20041004/hotai-ai-hackathon-2026)** | Competition | Two AI product proposals for yoxi and HINO; I was the product designer on a 3-person team | Prototypes: [yoxi](https://hunter20041004.github.io/hotai-ai-hackathon-2026/yoxi/prototype/) · [HINO](https://hunter20041004.github.io/hotai-ai-hackathon-2026/hino/wireframe/) |
